@@ -1,0 +1,185 @@
+/*RECYCLE.HTML CSS STARTS HERE */
+
+html,body{
+    margin:0;
+    padding:0;
+    border:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+}
+
+.mid{
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color:#333333;
+    background-size: 100% auto;
+    }
+
+.left{
+    position:fixed;
+    top:0px;
+    left:0;
+}
+
+.left1{
+    position:relative;
+    width: 15%;
+    height: 15%;
+    border:0;
+    margin:0;
+    left: 1275px;
+}
+
+
+.topnav {
+    background-color: #333;
+    width:auto;
+    height:auto;
+    float:left;
+    overflow: hidden;
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    display:block;
+    color: #f2f2f2;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    margin:0;
+    width:auto;
+    height:auto;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #6A95DA;
+    color: white;
+  }
+
+  h1{
+    text-align:center;
+    font-size:30pt;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+
+}
+
+h2{
+    text-align:center;
+    font-size:15pt;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+
+}
+
+h3{
+    text-align:center;
+    font-size:10pt;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffffff;
+
+}
+
+.search{
+    float:center;
+    text-align: center;
+}
+
+.search input[type=text]{
+    padding: 10px;
+    border: none;
+    margin-top: 25px;
+    margin-right: 16px;
+    font-size: 30px;
+    width:60%;
+    height:auto;
+}
+
+.button1{
+    border:none;
+    background-color:#797979be;
+    color: #ffffff;
+  padding: 10px 20px;
+    text-align:center;
+    display:inline-block;
+    font-size:20pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    input[type='range'] {
+      overflow: hidden;
+      width: 375px;
+      -webkit-appearance: none;
+      background-color: #ffffff;
+    }
+    
+    /*range/ slider customization*/
+    input[type='range']::-webkit-slider-runnable-track {
+        width:250px;
+      height: 10px;
+      -webkit-appearance: none;
+      color: #ffffff;
+      margin-top: -1px;
+    }
+    
+    input[type='range']::-webkit-slider-thumb {
+      width: 10px;
+      -webkit-appearance: none;
+      height: 10px;
+      cursor: ew-resize;
+      background: #6A95DA;
+      box-shadow: -80px 0 0 80px #ffffff;
+    }
+
+}
+/** FF*/
+input[type="range"]::-moz-range-progress {
+  background-color: #ffffff; 
+}
+input[type="range"]::-moz-range-track {  
+  background-color: #535353;
+}
+/* IE*/
+input[type="range"]::-ms-fill-lower {
+  background-color: #ffffff; 
+}
+input[type="range"]::-ms-fill-upper {  
+  background-color: #575654;
+}
+
+.bar2{
+    float:center;
+    text-align: center;
+}
+
+.bar2 input[type=text]{
+    padding: 10px;
+    border: none;
+    margin-top: 25px;
+    margin-right: 16px;
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    width:375px;
+    height:auto;
+}
+
+.square1{
+    text-align: center;
+    width:auto;
+    height:50px; 
+    background-color:#797979be;"
+    padding: 10px 20px;
+}
